@@ -1,0 +1,520 @@
+#navId {
+  margin-bottom: 0 !important;
+  background-color: #335599;
+  border: 0;
+}
+
+#brand {
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+}
+
+#myNavbar li a {
+  letter-spacing: 4px;
+  color: #c7c7f0;
+
+
+}
+
+#myNavbar li a:hover {
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  background-color: #413e3e;
+
+
+}
+
+.dropdown-menu {
+  padding: 15px 10px;
+}
+
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+
+
+
+.dropdown-menu li a {
+  color: rgb(39, 21, 146) !important;
+  padding: 10px 20px 10px 10px;
+
+
+
+
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgb(61, 152, 255) !important;
+  color: #413e3e;
+
+}
+
+#G {
+  font-size: 10px;
+  color: #231e3f;
+  padding: 10px;
+}
+
+/* dropdown de formation d'ingenieurs */
+.if_c {
+  position: relative;
+}
+
+.test_dis {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 95%;
+  right: 0;
+  width: 280px;
+  height: auto;
+  background-color: #fff;
+}
+
+.if_c:hover .test_dis {
+  display: block;
+}
+
+.test_dis a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+
+#content-desktop {
+  color: blue;
+}
+
+#content-mobile {
+  color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #content-desktop {
+    display: none;
+  }
+
+  #content-mobile {
+    display: block;
+  }
+
+  .test_dis {
+    top: 10% !important;
+    left: 20% !important;
+  }
+
+  .if_c:hover {
+    height: 320px !important;
+  }
+
+  .dropdown-menu li a {
+    color: #ffffff !important;
+    padding: 10px 20px 10px 10px;
+    background-color: #335599;
+  }
+
+  #G {
+    display: none;
+  }
+}
+
+
+
+.test_dis a:hover {
+  text-decoration: none;
+}
+
+/* end of navbar */
+
+
+/*  debut slider */
+.carousel-inner .active.left {
+  left: -33%;
+}
+
+.carousel-inner .next {
+  left: 33%;
+}
+
+.carousel-inner .prev {
+  left: -33%;
+}
+
+/* partie actualites */
+
+.btn-acc {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 5px;
+  border: 1px solid rgb(91, 91, 228);
+  color: #151442;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.btn-acc:hover {
+  background-color: rgb(100, 121, 216);
+
+}
+
+div.contenu {
+
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+}
+
+.contenu {
+
+  font-weight: 300;
+}
+
+
+
+
+.col-sm-4 .btn-acc a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+.photo {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+
+}
+
+.paragraphe {
+  width: 400;
+  color: rgb(41, 41, 98);
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: pre-line;
+  text-align: start;
+  padding-left: 35px;
+}
+
+/* glyphicon services */
+.gly {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: #282246;
+  height: 100px;
+
+}
+
+/* partie services */
+#services h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+#services {
+  padding: 15px;
+}
+
+#services h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 100;
+}
+
+.row {
+  flex-wrap: nowrap !important;
+}
+
+#id-footer {
+  background-color: #2c2d2e;
+  color: beige;
+  padding: 14px;
+}
+
+.col-sm-5 {
+  padding: 14px;
+}
+
+/*  classe dans footer pour le nom d'ecole  */
+.emi {
+  font-family: serif;
+  font-size: 15px;
+}
+
+/* ----------------------------fin de page d'acceuil------------------------------------- */
+/* -----------------------------les pages  ---------------------------------------------------------- */
+/* path */
+#breadC {
+  background-color: rgba(195, 195, 195, 0.89);
+
+}
+
+#breadC li a {
+  text-decoration: none;
+  font-family: serif;
+  font-size: 17px;
+  margin: 15px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(34, 25, 73);
+  content: "/\00a0";
+}
+
+#gly {
+  color: #4924c2;
+}
+/* ------------ */
+
+/* ------ presentation ---------------*/
+#mycontainer .h1 {
+  color: rgb(37, 37, 78);
+  font-size: 35px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+#image {
+  padding: 19px;
+}
+
+.secondparagraphe {
+  text-align: start;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+  font-size: 17px;
+  width: 85%;
+  padding-left: 15px;
+  padding-top: 45px;
+}
+
+#firstparagraphe {
+  text-align: start;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+  font-size: 17px;
+  width: 85%;
+  padding-left: 15px;
+}
+
+#mycontainer {
+  padding-top: 110px;
+
+}
+
+/* end */
+/* administration-------------------------- */
+#mycontainer1 {
+  background-color: #ffffff;
+  padding-top: 45px;
+}
+
+#image {
+  padding: 19px;
+}
+
+#mycontainer1 .h1 {
+  color: rgb(37, 37, 78);
+  font-size: 35px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+.mycontent {
+  font-family: Montserrat, sans-serif;
+}
+
+.mycontent h3 {
+  color: #290699;
+}
+
+.mycontent p {
+  color: #000000;
+  font-style: normal;
+  font-size: 17px;
+}
+
+/* admission------------------------------- */
+#mycontent1 {
+  background-color: #ffffff;
+
+
+}
+
+#firstcontainer .h1 {
+  color: rgb(37, 37, 78);
+  font-size: 35px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+p.myparagraphe {
+  padding: 15px;
+  font-family: Montserrat, sans-serif;
+}
+
+ul li {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-family: Montserrat, sans-serif
+}
+
+.myh4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  padding: 18px;
+  color: #262244;
+}
+
+.row {
+  flex-wrap: nowrap !important;
+}
+
+#firstcontainer {
+  margin: 75px;
+}
+
+/* liste des enseignant-------------------------- */
+#mycontainer2 .h1 {
+  color: rgb(34, 25, 73);
+  font-size: 23px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+#mycontainer2 {
+  margin: 75px;
+
+}
+
+#mycontainer2 .h2 {
+  font-size: 19px;
+  font-family: Montserrat, sans-serif;
+}
+
+/* tableau -------------------*/
+td {
+  font-family: Montserrat, sans-serif;
+}
+
+/*  formation d'ingenieurs ---------------*/
+#container-formation {
+
+  margin: 15px;
+}
+
+#container-formation h1 {
+  color: rgb(134, 134, 149);
+  font-size: 30px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+#container-formation p {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  color: rgb(39, 38, 59);
+
+}
+
+#container-formation h2,
+h4 {
+  font-family: Montserrat, sans-serif;
+
+}
+
+/*  department genie civile , presque le meme code s'applique sur les autres pages de departements (electrique,mecanique.....)*/
+#container-department {
+  background-color: #ffffff;
+  margin: 35px;
+
+}
+
+#container-department h1 {
+  color: rgb(19, 19, 102);
+  font-size: 30px;
+  text-transform: uppercase;
+
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+#container-department p {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+
+
+}
+
+#container-department ul li {
+  font-size: 15px;
+}
+
+#container-department h5 {
+  color: #271a53;
+  font-weight: 700;
+}
+
+#container-department .color li {
+  color: #3911c0;
+}
+
+
+/* les 3 pages d'actualites  */
+#container-actu {
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+  text-align: start;
+}
+
+.img-actu {
+  width: 65%;
+}
+
+#container-actu .title-actu {
+  color: rgb(19, 19, 102);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+/* fin de code */
